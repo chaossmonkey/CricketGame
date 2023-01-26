@@ -6,7 +6,6 @@ public class Main {
         TOSS t1=new TOSS();
         int random_toss = t1.toss_reaction();//can be either 1 or 2-->1 means team1 will bat first...else team2 will bat first//
 
-        //RANDOM_REACTION_TO_BOWL random_reaction_to_bowl=new RANDOM_REACTION_TO_BOWL();
         if(random_toss==2)
         {
             System.out.println("TEAM2 HAS WON THE TOSS AND ITS GOING TO BAT FIRST.......SO TEAM 1 IS GOING TO BOWL FIRST");
